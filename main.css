@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -51,6 +52,35 @@ table {
   border-spacing: 0;
 }
 
+.header {
+  width: 1920px;
+  height: 43px;
+  background-color: #EFF0F0;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 260px;
+  gap: 414px;
+}
+.header-container-contents {
+  display: flex;
+  gap: 100px;
+}
+.header-container-contents-block {
+  display: flex;
+  gap: 8px;
+}
+.header-container-contents-block-text {
+  color: #737373;
+}
+.header-container-contents-block-text-underline {
+  text-decoration: underline;
+  padding-top: 2px;
+}
+
 html, body {
   height: 100%;
+  font-family: "Roboto", sans-serif;
 }/*# sourceMappingURL=main.css.map */
